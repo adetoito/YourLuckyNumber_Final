@@ -20,9 +20,9 @@ public class Main {
             while (nameInput) {
 
                 System.out.println("Please input your name.");
-                String tempName = sc.next();
+                String tempName = sc.nextLine();
 
-                if (tempName.length() > 0) {
+                if (tempName.equals("")) {
 
                     System.out.println("You need to input a name.");
 
